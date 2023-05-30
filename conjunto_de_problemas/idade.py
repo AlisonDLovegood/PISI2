@@ -1,0 +1,6 @@
+m = int(input())
+a = int(input())
+b = int(input())
+c = (m-a-b)
+l = sorted([a, b, c])
+print(l[-1])
